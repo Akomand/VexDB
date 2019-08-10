@@ -4,38 +4,26 @@ VexDB is a mobile application developed in order to make accessing Vex Robotics 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.  
+
+You will need [XCode](https://developer.apple.com/support/xcode/) and/or [Android Studio](https://developer.android.com/studio).
 
 First, visit [here](https://brew.sh/) to install Homebrew.
 
 ### Installing 
 
-#### Node, Watchman, JDK
-Use 'brew' to install the following
-
-```
-brew install node
-brew install watchman
-brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
-```
-
-#### Install React-Native CLI
-```
-npm install -g react-native-cli
-```
-
 #### Visit [React-Native](https://facebook.github.io/react-native/docs/getting-started) to set up your dev environment
 
 ### Running the application
 
+Clone this repo, cd into VexDB, and install dependencies as follows
 ```
 git clone https://github.com/Akomand/VexDB.git
 cd VexDB
 npm install
 ```
 
-And repeat
+Now, run the following command to run the application
 
 ```
 react-native run-ios
