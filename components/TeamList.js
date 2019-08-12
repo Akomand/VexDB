@@ -252,7 +252,7 @@ class TeamList extends React.Component {
           <FadeInView>
           <FlatList
             keyExtractor={(item, index) => `${index}`}
-            extraData={this.state} // <- add this prop
+            extraData={this.state} 
             data={this.state.teamDetails}
             renderItem={this._renderItem}
           />
