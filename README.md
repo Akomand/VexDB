@@ -23,7 +23,13 @@ cd VexDB
 npm install
 ```
 
-Now, run the following command to run the application
+If you are running the application on IOS device, do the following
+```
+cd ios
+pod install
+```
+
+Now, run the following command from the root to run the application
 
 ```
 react-native run-ios
