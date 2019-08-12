@@ -1,4 +1,4 @@
-# VexDB AR
+# VexDB
 
 VexDB is a mobile application developed in order to make accessing Vex Robotics Competition team records and events convenient. 
 
@@ -23,7 +23,7 @@ cd VexDB
 npm install
 ```
 
-If you are running the application on IOS device, do the following
+If you are running the application on iOS device, do the following
 ```
 cd ios
 pod install
